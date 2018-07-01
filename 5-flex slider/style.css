@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+.slider{
+	display: flex;
+	width: 100%;
+	min-height: 100vh;
+	flex-direction: row;
+	overflow: hidden;
+}
+.panles{
+	flex: 1;
+	font-size: 24px;
+	color: #fff;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	box-shadow: 0 0 5px 0 #ccc inset;
+	transition: flex 1s cubic-bezier(0, -0.37, 0.68, -0.36),
+				font-size  1s  ease 2s;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.panles > * {
+	transition: all 0.5s;
+	width: 100%;
+	flex: 1;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panles > *:first-child {
+	transform: translateY(-100%);
+}
+.panles > *:last-child {
+	transform: translateY(100%);
+}
+.panles.open {
+	flex: 5;
+	font-size: 48px;
+}
+.panles.openactive > *{
+	transform: translateY(0);
+}
+.panle1{
+	background-image: url("https://i.ytimg.com/vi/wnBXGxJdO_E/maxresdefault.jpg");
+	
+}
+.panle2{
+	background-image: url("https://image.freepik.com/psd-gratis/diseno-de-fondo-abstracto_1297-78.jpg");
+
+}
+.panle3{
+	background-image: url("https://ak7.picdn.net/shutterstock/videos/32692117/thumb/1.jpg");
+
+}
+.panle4{
+	background-image: url("https://i.ytimg.com/vi/0OmYyTeaHHk/maxresdefault.jpg");
+
+}
+.panle5{
+	background-image: url("https://media-us-west-motionelements.s3.amazonaws.com/m/s/1418/9408564/a-0005.jpg");
+
+}

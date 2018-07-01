@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+.boxs{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.box{
+	font-size: 24px;
+}
+input{
+    position: relative;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    background: #ccc;
+    padding: 15px;
+    outline: 0;
+}
+input + * {padding: 0 10px;}
+input:checked{
+	background-color: #f8f8;
+}
+input:checked +*{
+    background: #ccc;
+}

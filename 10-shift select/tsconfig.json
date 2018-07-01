@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "removeComments": true, 
+    "outFile": "ts.js",  
+    "strict": true,
+    "sourceMap": true
+  },
+  "files": [
+    "typescript.ts"
+  ]
+}

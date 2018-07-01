@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+body {
+    background-image: url("http://friendsofmedellin.com/wp-content/uploads/2017/08/party.jpg");
+    background-size: cover;
+}
+.keys,.shaps {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.shap.play{
+    transform: scale(3);
+}
+.shap{
+    position: absolute;
+    font-size: 48px;
+    transition: all 0.5s;
+    transform: scale(0);
+    color:#fff;
+}
+.key {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 1.3rem;
+    background: #777;
+    color: #f9f9f9;
+    margin: 0 0.5rem;
+    font-size: 24px;
+    border-radius: 50%;
+    border: .3rem solid #777;
+    transition: all 0.5s;
+}
+.key.play {
+	border-color: yellow;
+    background-color: #ccc;
+    color: #000;
+    transform: scale(1.3);
+}

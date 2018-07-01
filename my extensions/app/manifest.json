@@ -1,0 +1,23 @@
+{
+	 "manifest_version": 2,
+	 "name": "test 1",
+	 "version": "1.0",
+	 "description": "make you grid in all website",
+	 "icons": {
+	    "48": "img/icon.png"
+	  },
+	 "permissions":["activeTab"],
+	 "web_accessible_resources": [
+	    "img/1.jpg",
+	    "img/2.jpg",
+	    "img/3.jpg"
+	  ],
+	 "browser_action":{
+	 	"default_icon":"img/icon.png",
+	 	"default_title":"ahmed samir",
+	 	"default_popup": "popup.html"
+	 },
+	 "background": {
+		"page": "background.html"
+	}
+}

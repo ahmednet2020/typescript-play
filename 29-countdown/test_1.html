@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>count</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="btns">
+		<button type="button" data-time='30' class="button">30 scond</button>
+		<button type="button" data-time='60' class="button">1 Minute</button>
+		<button type="button" data-time='120' class="button">2 Minute</button>
+		<button type="button" data-time='240' class="button">4 Minute</button>
+		<form name="timerinput">
+			<input type="text" name="number" placeholder="Enter Minutes"/>
+			<input type="submit" name="submit" value="Start" class="button">
+		</form>
+	</div>
+	<div class="timer">
+		<div class="timeleft"></div>
+		<div>back at  <span class="timeback"></span></div>
+	</div>
+    <script src="ts.js"></script>
+</body>
+<!--img src="small.jpg" srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 1500w" alt="Wallaby">-->
+</html>

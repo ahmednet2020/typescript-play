@@ -1,5 +1,16 @@
 /*<reference path="jquery.ts"/>*/
 //ajax object setting
+// clone
+//detach
+//offset
+//position
+//replacewith
+//unwrap
+//wrap
+//each
+//has
+//is
+//end
 interface ajaxObject{
 	url:string,
 	type:string,
